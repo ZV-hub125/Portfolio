@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', serif;
+    color: rgb(35, 33, 33)
+}
+
+header {
+    background: linear-gradient(rgb(255, 250, 233), white);
+}
+
+.logo {
+    font-family: "Imperial script", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 98px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-items{
+    display: flex;
+    gap: 2em;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.menu-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 196, 40);
+    border: rgb(255, 196, 40), solid;
+    border-radius: 10px;
+    padding: 1.5em 3.5em;
+    border-color: rgb(255, 196, 40);
+    transition: box-shadow 0.3s linear;
+    margin-right: 98px;
+}
+
+.menu-btn:hover{
+    box-shadow: 6px 3px 10px 1px rgba(74, 74, 74, 0.716);
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.yellow-text{
+    color: rgb(255, 192, 100);
+    font-size: 25px;
+    margin: 0;
+}
+
+.green-text{
+    color: rgb(32, 119, 51);
+    font-size: 40px;
+    margin: 0;
+}
+
+.gray-text{
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 20px;
+    margin: 0;
+}
+
+.hero-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 196, 40);
+    border: rgb(255, 196, 40), solid;
+    border-radius: 10px;
+    padding: 1.2em 4em;
+    border-color: rgb(255, 196, 40);
+    transition: box-shadow 0.3s linear;
+    margin-right: 20px;
+}
+
+.hero-btn:hover{
+    box-shadow: 6px 3px 10px 1px rgba(74, 74, 74, 0.716);
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+}
+
+.hero-text-btns {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-text-btns a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.hero-text-btns a:hover{
+    text-decoration: underline;
+    color: rgba(255, 171, 16, 0.905);
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me img{
+    height: 50%;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+}
