@@ -125,15 +125,121 @@ header {
 }
 
 .about-me{
+    margin-top: 150px;
+    height: 90vh;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
-.about-me img{
-    height: 50%;
+.about-me > img{
+    height: 100%;
 }
 
 .me {
     display: flex;
     flex-direction: column;
+    width: 40%;
+}
+
+.me-desc{
+    display: flex;
+    gap: 15px;
+    height: 10%;
+    margin-top: 10px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-img{
+    width: 8%;
+    height: 75%;
+}
+
+.me-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 196, 40);
+    border: rgb(255, 196, 40), solid;
+    border-radius: 10px;
+    padding: 1.2em 4em;
+    border-color: rgb(255, 196, 40);
+    transition: box-shadow 0.3s linear;
+    margin-right: 20px;
+}
+
+.me-btn:hover{
+    box-shadow: 6px 3px 10px 1px rgba(74, 74, 74, 0.716);
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+}
+.me-text-btns{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.me-text-btns a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.me-text-btns a:hover{
+    text-decoration: underline;
+    color: rgba(255, 171, 16, 0.905);
+}
+
+.services{
+    margin-top: 50px;
+}
+
+.service-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-text p{
+    font-size: 16px;
+}
+
+.service-items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cases{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cases-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cases-text p{
+    font-size: 16px;
+}
+
+.case{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.case-img{
+    width: 40%;
 }
